@@ -1,0 +1,349 @@
+.bg-image {
+    background-image: url('/assets/images/service_banner.jpg');
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+
+
+// ABOUT 
+.about-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.container-about {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    flex-direction: column;
+
+    .p {
+        font-size: 14px;
+        text-align: center;
+        color: #464646;
+        line-height: 2em;
+    }
+}
+
+.about-header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+h3.w3ls-tittle,
+h2.w3ls-tittle {
+    margin-top: 100px;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 52px;
+    color: #ff322e;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+h3.w3ls-tittle.t-team {
+    color: #fff;
+}
+
+h3.w3ls-tittle:after,
+h3.w3ls-tittle:before {
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: #000;
+    margin: 0 2%;
+    margin-top: 25px;
+}
+
+h2.w3ls-tittle:after,
+h2.w3ls-tittle:before {
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: #fff;
+    margin: 0 2%;
+}
+
+.about-section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.about-image {
+    width: 50%;
+
+    img {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+.about-pragraph {
+    width: 50%;
+
+    p {
+        // color: #555;
+        color: #464646;
+        font-size: 14px;
+        line-height: 2em;
+    }
+
+    h4 {
+        color: #00bce4;
+    }
+}
+
+// End About
+
+
+
+// Service container
+.service-container {
+    height: 600px;
+    width: 100%;
+}
+
+.container-service {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    // background-color: #fff;
+    flex-direction: column;
+
+    .p {
+        font-size: 14px;
+        text-align: center;
+        color: #464646;
+        line-height: 2em;
+    }
+}
+
+
+.service-header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+h3.service-tittle,
+h2.service-tittle {
+    margin-top: 100px;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 52px;
+    color: #ff322e;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+h3.service-tittle.t-team {
+    color: #fff;
+}
+
+h3.service-tittle:after,
+h3.service-tittle:before {
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: #fff;
+    margin: 0 2%;
+    margin-top: 25px;
+}
+
+h2.service-tittle:after,
+h2.service-tittle:before {
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    //background: #fff;
+    margin: 0 2%;
+}
+
+.container-div-row-1 {
+    height: 200px;
+    // background-color: red;
+    width: 100%;
+    display: flex;
+}
+
+.container-div-row-col-1 {
+    width: 50%;
+    display: flex;
+
+    img {
+        height: 50px;
+        border-radius: 50%;
+        border: 4px solid #ff322e;
+        padding: 10px;
+    }
+
+    .container-div-row-col-1-body {
+        margin-left: 20px;
+        width: 80%;
+
+        h1 {
+            color: #00bce4;
+            font-weight: bold;
+
+        }
+
+        p {
+            color: #fff;
+            flex-direction: column;
+        }
+    }
+
+}
+
+.container-div-row-col-2 {
+    width: 50%;
+    display: flex;
+
+    img {
+        height: 50px;
+        border-radius: 50%;
+        border: 4px solid #ff322e;
+        padding: 10px;
+    }
+
+    .container-div-row-col-2-body {
+        margin-left: 20px;
+        width: 80%;
+
+        h1 {
+            color: #00bce4;
+            font-weight: bold;
+
+        }
+
+        p {
+            color: #fff;
+            flex-direction: column;
+        }
+    }
+
+}
+
+
+
+
+// Tablet device css
+@media screen and (max-width: 768px) {
+
+    // ABOUT 
+    .about-container {
+        width: 100%;
+        background-color: #fff;
+    }
+
+
+    .container-about {
+        .p {
+            text-align: justify;
+        }
+    }
+
+    .about-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3.w3ls-tittle,
+    h2.w3ls-tittle {
+        font-size: 38px;
+    }
+
+    .about-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .about-pragraph {
+        width: 100%;
+
+        p {
+            // color: #555;
+            color: #464646;
+            font-size: 14px;
+            line-height: 2em;
+            text-align: justify;
+        }
+
+        h4 {
+            color: #00bce4;
+        }
+    }
+
+    // End About
+
+
+
+
+
+    // Service container
+    .service-container {
+        height: 1000px;
+        width: 100%;
+    }
+
+    h3.service-tittle,
+    h2.service-tittle {
+        font-size: 38px;
+    }
+
+    .container-div-row-1 {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-div-row-col-1 {
+        width: 100%;
+        display: flex;
+        height: 200px;
+    }
+
+    .container-div-row-col-2 {
+        width: 100%;
+        height: 200px;
+    }
+
+
+}

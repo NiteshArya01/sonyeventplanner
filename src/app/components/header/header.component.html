@@ -1,0 +1,49 @@
+<div class="top-header">
+    <ul class="top-header-container">
+        <li> +919999844680</li>
+        <li>|</li>
+        <li><a routerLink="/contact">Contact</a></li>
+    </ul>
+</div>
+
+<div class="header-menu-container">
+    <div class="header-menu">
+        <div class="logo">
+            <img src="../../assets/images/logo.jpg">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+                <li><a routerLink="/about">About</a></li>
+                <li><a routerLink="/services">Services</a></li>
+                <li><a routerLink="/gallery">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <!-- <mat-icon>more_vert</mat-icon> -->
+                <mat-icon>dehaze</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <ul class="mobile-menu-ul">
+                    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+                    <li><a routerLink="/about">About</a></li>
+                    <li><a routerLink="/services">Services</a></li>
+                    <li><a routerLink="/gallery">Gallery</a></li>
+                </ul>
+                <!-- <button mat-menu-item>
+                    <a routerLink="/home" routerLinkActive="active">Home</a>
+                </button>
+                <button mat-menu-item disabled>
+                    <mat-icon>voicemail</mat-icon>
+                    <span>Check voice mail</span>
+                </button>
+                <button mat-menu-item>
+                    <mat-icon>notifications_off</mat-icon>
+                    <span>Disable alerts</span>
+                </button> -->
+            </mat-menu>
+
+        </div>
+    </div>
+</div>

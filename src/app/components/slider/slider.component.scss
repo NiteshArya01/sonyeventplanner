@@ -1,0 +1,62 @@
+.slider {
+    width: 100%;
+    background-image: url('/assets/images/banner1.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    // min-height: 730px;
+    height: 600px;
+
+    /* Add the blur effect */
+    // filter: blur(8px);
+    // -webkit-filter: blur(2px);
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: #00bce4;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+}
+
+
+// Tablet device css
+@media screen and (max-width : 768px) {
+    .slider {
+        height: 500px;
+    }
+
+    .bg-text {
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/opacity/see-through */
+        color: #00bce4;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Niconne', cursive;
+    }
+
+}
